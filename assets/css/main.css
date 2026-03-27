@@ -232,9 +232,35 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		h1 {
-			font-size: 2em;
+		#nav {
+			display: block;
+			overflow-x: auto;
+			white-space: nowrap;
+			-webkit-overflow-scrolling: touch;
 		}
+
+		#nav ul {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: nowrap;
+			width: max-content;
+			min-width: 100%;
+		}
+
+		#nav ul li {
+			display: inline-block;
+			margin: 0 0.2em;
+		}
+
+		#nav ul li a {
+			font-size: 0.95em;
+			padding: 0 0.9em;
+		}
+
+		#nav + #main {
+			padding-top: 4.25em;
+		}
+	}
 
 	}
 
