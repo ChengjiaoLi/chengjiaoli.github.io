@@ -3836,3 +3836,138 @@ input, select, textarea {
 		padding: 1.8em 2em 0.9em 2em;
 	}
 }
+
+.capability-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.cap-card {
+	background: #fcfbfe;
+	border: 1px solid #ece3f5;
+	border-radius: 1.25rem;
+	padding: 1.75rem 1.5rem;
+	box-shadow: 0 4px 18px rgba(120, 95, 150, 0.06);
+}
+
+.cap-icon {
+	width: 2.75rem;
+	height: 2.75rem;
+	border-radius: 0.8rem;
+	background: #f3ecfa;
+	color: #7a6296;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.cap-card h3 {
+	margin-bottom: 0.75rem;
+	font-size: 1.3rem;
+}
+
+.cap-card p {
+	margin-bottom: 0;
+	font-size: 0.98rem;
+	line-height: 1.7;
+}
+
+@media screen and (max-width: 980px) {
+	.capability-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.cap-grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1.75rem;
+	margin-top: 2rem;
+}
+
+.cap-box {
+	padding: 1.5rem 1.5rem 1.2rem;
+	border: 1px solid #ece3f5;
+	border-radius: 1rem;
+	background: #fcfbfe;
+}
+
+.cap-box h3 {
+	margin-bottom: 0.75rem;
+}
+
+.cap-box p {
+	margin-bottom: 0;
+	line-height: 1.75;
+}
+
+@media screen and (max-width: 980px) {
+	.cap-grid-2 {
+		grid-template-columns: 1fr;
+	}
+}
+
+#tools-languages .tag-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-bottom: 2rem;
+}
+
+#tools-languages .tag {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	border-radius: 999px;
+	background: #ede6f8;
+	color: #6a5682;
+	font-size: 0.95rem;
+	font-weight: 500;
+	line-height: 1.2;
+	border: 1px solid #dacced;
+	transition: all 0.2s ease;
+}
+
+#tools-languages .tag:hover {
+	background: #e9e0f6;
+	color: #5f4c78;
+	border-color: #d3c2eb;
+}
+
+#header {
+	position: relative;
+}
+
+#header.alt {
+	position: relative;
+}
+
+.lang-switch {
+	position: absolute;
+	top: 2rem;
+	right: 2.5rem;
+	z-index: 20;
+	font-size: 0.95rem;
+	font-weight: 500;
+	line-height: 1;
+	text-align: right;
+}
+
+.lang-switch a,
+.lang-switch .active-lang,
+.lang-switch .divider {
+	color: rgba(255, 255, 255, 0.9);
+	text-decoration: none;
+}
+
+.lang-switch a:hover {
+	color: #ffffff;
+}
+
+.lang-switch .divider {
+	margin: 0 0.35rem;
+	opacity: 0.7;
+}
