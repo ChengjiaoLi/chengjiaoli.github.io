@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>生活 | 李成娇</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+        <style>
+            .photo-gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.5em;
+                margin-top: 2em;
+            }
+
+            .photo-gallery .photo-item {
+                border-radius: 12px;
+                overflow: hidden;
+                background: #f8f8f8;
+                box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+            }
+
+            .photo-gallery img {
+                display: block;
+                width: 100%;
+                height: 260px;
+                object-fit: cover;
+            }
+
+            @media screen and (max-width: 980px) {
+                .photo-gallery {
+                    grid-template-columns: 1fr;
+                }
+
+                .photo-gallery img {
+                    height: 320px;
+                }
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+        <div id="wrapper">
+            <header id="header">
+            	<div class="lang-switch">
+					<a href="life-data.html">EN</a>
+					<span class="divider">|</span>
+					<span class="active-lang">中文</span>
+				</div>
+            
+                <h1>工作之外的生活</h1>
+                <p>旅行、美学与热爱</p>
+            </header>
+
+            <nav id="nav">
+                <ul>
+					<li><a href="index-data-cn.html">首页</a></li>
+					<li><a href="experience-data-cn.html">经历</a></li>
+					<li><a href="skills-data-cn.html">技能</a></li>
+					<li><a href="research-data-cn.html">研究</a></li>
+					<li><a href="life-data-cn.html" class="active">生活</a></li>
+                </ul>
+            </nav>
+
+            <div id="main">
+                
+                <section id="travel" class="main">
+                    <header class="major">
+                        <h2>用镜头记录世界</h2>
+                    </header>
+                    <p>
+                        我热爱探索不同的文化，已经到访过亚洲、欧洲和非洲的 15 个以上国家。
+                        
+                    </p>
+                    <p>
+                        我始终相信，与人和世界建立连接，是生活中最有意义也最美好的事情之一！
+                    </p>
+
+                    <div class="photo-gallery">
+                        <div class="photo-item">
+                            <img src="images/travel_dessert.JPG" alt="旅行中的甜点" />
+                        </div>
+                        <div class="photo-item">
+                            <img src="images/travel_Egypt.JPG" alt="埃及旅行" />
+                        </div>
+                        <div class="photo-item">
+                            <img src="images/travel_snorkeling.JPG" alt="旅行中的浮潜" />
+                        </div>
+                    </div>
+                </section>
+
+                <hr />
+
+                <section id="passions" class="main special">
+                    <header class="major">
+                        <h2>我的爱好</h2>
+                    </header>
+                    <ul class="features">
+                        <li>
+                            <span class="icon solid major style2 fa-music"></span>
+                            <h3>音乐与陈奕迅</h3>
+                            <p>我是陈奕迅的忠实歌迷。音乐一直都是治愈我的一种方式。</p>
+                        </li>
+                        <li>
+                            <span class="icon solid major style4 fa-paint-brush"></span>
+                            <h3>美学欣赏</h3>
+                            <p>无论是摄影还是绘画，我都喜欢探索美学如何为复杂的事物带来清晰、情感与美感。</p>
+                        </li>
+                         <li>
+                            <span class="icon solid major style5 fa-utensils"></span>
+                            <h3>做饭</h3>
+                            <p>我喜欢做饭，也喜欢和朋友一起分享食物。还有什么比一起享受一顿美味的饭菜更幸福呢？</p>
+                         </li>
+                    </ul>
+                </section>
+
+            </div>
+
+			<footer id="footer">
+				<section class="contact-block compact-contact">
+					<h2>联系方式</h2>
+					<div class="contact-row">
+
+						<span class="contact-item">
+							<span class="icon solid fa-envelope"></span>
+							<a href="mailto:chengjiaoli88@outlook.com">chengjiaoli88@outlook.com</a>
+						</span>
+						<span class="contact-item">
+							<span class="icon brands fa-linkedin-in"></span>
+							<a href="https://www.linkedin.com/in/chengjiao-li-96b55ba3/" target="_blank" rel="noopener noreferrer">领英</a>
+						</span>
+					</div>
+				</section>
+
+				<p class="copyright">&copy; 李成娇。保留所有权利。</p>
+			</footer>
+
+		</div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
